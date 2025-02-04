@@ -1,0 +1,7 @@
+<map id="utils.h" name="utils.h">
+<area shape="rect" id="Node000001" title="Header file for utility functions." alt="" coords="63,5,125,31"/>
+<area shape="rect" id="Node000002" href="$dummy_8c.html" title="Main file for the dummy project to test Doxygen documentation." alt="" coords="5,79,87,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,44,56,80,52,77,76,41"/>
+<area shape="rect" id="Node000003" href="$utils_8c.html" title="Utility functions for the dummy project." alt="" coords="111,79,173,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,41,136,77,132,80,107,44"/>
+</map>
