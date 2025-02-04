@@ -24,13 +24,12 @@
 */
 var NAVTREE =
 [
-  [ "My Project", "index.html", [
-    [ "Project Overview", "md_overview.html", null ],
-    [ "Doxygen Documentation with GitHub Pages", "md_README.html", null ],
-    [ "Usage Instructions", "md_usage.html", [
-      [ "Building and Running the Project", "md_usage.html#autotoc_md3", null ],
-      [ "Generating Documentation with Doxygen", "md_usage.html#autotoc_md4", null ]
+  [ "Doxygen Publishing on GitHub Pages", "index.html", [
+    [ "Dummy Code verview", "md_overview.html", null ],
+    [ "Doxygen Documentation with GitHub Pages", "md_README.html", [
+      [ "This repository features", "md_README.html#autotoc_md2", null ]
     ] ],
+    [ "Generating Documentation with Doxygen", "md_usage.html", null ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [

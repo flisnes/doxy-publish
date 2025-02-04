@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['generating_20documentation_20with_20doxygen_0',['Generating Documentation with Doxygen',['../md_usage.html#autotoc_md4',1,'']]],
-  ['github_20pages_1',['Doxygen Documentation with GitHub Pages',['../md_README.html',1,'']]]
+  ['features_0',['This repository features',['../md_README.html#autotoc_md2',1,'']]]
 ];

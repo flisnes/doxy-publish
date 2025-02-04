@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Usage Instructions</title>
+<title>Doxygen Publishing on GitHub Pages: Generating Documentation with Doxygen</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">Doxygen Publishing on GitHub Pages
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -95,35 +95,23 @@ $(document).ready(function(){initNavTree('md_usage.html',''); initResizable(); }
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Usage Instructions</div></div>
+  <div class="headertitle"><div class="title">Generating Documentation with Doxygen</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md2"></a> </p>
-<h1><a class="anchor" id="autotoc_md3"></a>
-Building and Running the Project</h1>
-<ol type="1">
-<li><b>Compile the C Files:</b> <br  />
- Use your favorite C compiler. For example, on Linux: <div class="fragment"><div class="line">gcc dummy.c utils.c -o dummy_app</div>
-</div><!-- fragment --></li>
-<li><p class="startli"><b>Run the Executable:</b></p>
-<div class="fragment"><div class="line">./dummy_app</div>
-</div><!-- fragment --><p class="startli">You should see output similar to:</p>
-<div class="fragment"><div class="line">Sum: 7</div>
-<div class="line">Product: 12</div>
-</div><!-- fragment --></li>
-</ol>
-<h1><a class="anchor" id="autotoc_md4"></a>
-Generating Documentation with Doxygen</h1>
-<ol type="1">
-<li><p class="startli">Prepare Your Doxyfile: If you haven't already, generate a default Doxyfile with:</p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md3"></a></p><ol type="1">
+<li><p class="startli">Prepare Your Doxyfile: Generate a default Doxyfile with:</p>
 <div class="fragment"><div class="line">doxygen -g</div>
-</div><!-- fragment --><p> Then customize it as needed (for example, set the output directory to docs/html).</p>
-</li>
+</div><!-- fragment --><p> Customize it as needed. For this minimal project the following changes were made:</p>
+<div class="fragment"><div class="line">PROJECT_NAME     = &quot;Doxygen Publishing on GitHub Pages&quot;</div>
+<div class="line">OUTPUT_DIRECTORY = docs</div>
+<div class="line">HTML_OUTPUT      = html</div>
+<div class="line">HAVE_DOT         = YES</div>
+</div><!-- fragment --></li>
 <li><p class="startli">Run Doxygen: Execute:</p>
 <div class="fragment"><div class="line">doxygen Doxyfile</div>
 </div><!-- fragment --></li>
 <li><p class="startli">View the Documentation:</p>
-<p class="startli">Open the generated index.html file in your browser (usually found in the output directory you specified). </p>
+<p class="startli">Open the generated index.html file in your browser (usually found in the output directory you specified, in this case <code>docs/html/index.html</code>). </p>
 </li>
 </ol>
 </div></div><!-- contents -->
